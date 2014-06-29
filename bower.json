@@ -2,6 +2,7 @@
   "name": "ember-todo-app",
   "dependencies": {
     "ember": "~1.5.1",
-    "ember-data": "~1.0.0-beta.4"
+    "ember-data": "~1.0.0-beta.4",
+    "ember-localstorage-adapter": "0.3.2"
   }
 }
