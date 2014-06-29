@@ -28,7 +28,6 @@ Todos.TodosActiveRoute = Ember.Route.extend({
   }
 });
 
-
 Todos.TodosCompletedRoute = Ember.Route.extend({
   model: function(){
     return this.store.filter('todo', function(todo) {
